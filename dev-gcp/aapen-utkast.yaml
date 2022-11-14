@@ -1,0 +1,24 @@
+apiVersion: kafka.nais.io/v1
+kind: Topic
+metadata:
+  name: aapen-utkast-v1
+  namespace: min-side
+  labels:
+    team: min-side
+  annotations:
+    dcat.data.nav.no/title: "Public input-topic for utkast som skal være tilgjengelig fra min side"
+    dcat.data.nav.no/description: "Produsenter kan sende utkast til min side"
+    dcat.data.nav.no/keyword: "utkast"
+spec:
+  pool: nav-dev
+  config:
+    cleanupPolicy: delete  # delete, compact
+    minimumInSyncReplicas: 1
+    partitions: 4
+    replication: 3  #  see min/max requirements
+    retentionBytes: -1  # -1 means unlimited
+    retentionHours: 168  # One week
+  acl:
+    - team: min-side
+      application: tms-utkast
+      access: read   #
