@@ -2,7 +2,7 @@
 
 Repo med konfigurasjon for hvem som kan produsere og konsumere fra min-side-utkast-topic.
 
-##Hvordan kobler jeg meg på min-side-utkast-topic-et?
+## Hvordan kobler jeg meg på min-side-utkast-topic-et?
 For skrivetilgang
         - team: myTeam
           application: myApplication
@@ -18,8 +18,8 @@ For alle topicer i dette repoet vil dette være min-side.
 
 For eksempel: min-side.aapen-utkast-v1
 
-Henvendelser
+## Henvendelser
 Spørsmål knyttet til koden eller prosjektet kan rettes mot https://github.com/orgs/navikt/teams/min-side
 
-For NAV-ansatte
+## For NAV-ansatte
 Interne henvendelser kan sendes via Slack i kanalen #brukernotifikasjoner.
