@@ -10,7 +10,7 @@ metadata:
     dcat.data.nav.no/description: "Produsenter kan sende utkast til min side"
     dcat.data.nav.no/keyword: "utkast"
 spec:
-  pool: nav-dev
+  pool: nav-prod
   config:
     cleanupPolicy: delete  # delete, compact
     minimumInSyncReplicas: 1
