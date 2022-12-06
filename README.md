@@ -9,9 +9,10 @@ skal kunne finne søknader og dokument-innsendinger hen har begynt å fylle ut, 
 
 ### Nice! Hvordan kan mitt team få våre ting på utkast-sida?
 Koble på min-side-utkast-topicet og kjør på! <br>
-_utkast er i beta og støtter for øyeblikket to hendelser: created og deleted_
+_utkast er i beta og støtter for øyeblikket tre hendelser: created, updated, og deleted_
 1. Send en created-melding når en bruker har lagra et utkast
-2. Send en deleted melding når bruker enten har sendt inn søknaden eller slettet utkastet.
+2. Send en updated-melding hvis url-en eller tittelen til utkastet har endret seg. 
+3. Send en deleted melding når bruker enten har sendt inn søknaden eller slettet utkastet.
    
 Formatet på meldingene er beskrevet i [tms-utkast reopet](https://github.com/navikt/tms-utkast).
 Det finnes også et [message-builder bibliotek](https://jitpack.io/#navikt/tms-utkast) som lager meldingene for deg.
