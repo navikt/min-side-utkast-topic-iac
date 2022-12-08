@@ -12,7 +12,7 @@ Koble på min-side-utkast-topicet og kjør på! <br>
 _utkast er i beta og støtter for øyeblikket tre hendelser: created, updated, og deleted_
 1. Send en created-melding når en bruker har lagra et utkast
 2. Send en updated-melding hvis url-en eller tittelen til utkastet har endret seg. 
-3. Send en deleted melding når bruker enten har sendt inn søknaden eller slettet utkastet.
+3. Send en deleted melding når bruker enten har sendt inn eller hvis utkastet har blitt slettet enten av bruker eller systemet.
    
 Formatet på meldingene er beskrevet i [tms-utkast reopet](https://github.com/navikt/tms-utkast).
 Det finnes også et [message-builder bibliotek](https://jitpack.io/#navikt/tms-utkast) som lager meldingene for deg.
