@@ -42,4 +42,4 @@ For eksempel: min-side.aapen-utkast-v1
 
 ## Henvendelser
 Spørsmål knyttet til koden eller prosjektet kan rettes mot https://github.com/orgs/navikt/teams/min-side eller 
-slackkanalen #brukernotifikasjoner
+slackkanalen #utkast
