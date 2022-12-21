@@ -34,3 +34,9 @@ spec:
     - team: aap
       application: soknad-api
       access: write
+    - team: team-soknad
+      application: soknadsmottaker
+      access: write
+    - team: team-soknad
+      application: soknadsmottaker
+      access: read
