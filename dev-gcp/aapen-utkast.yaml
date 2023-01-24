@@ -40,3 +40,6 @@ spec:
     - team: aap
       application: soknad-api
       access: write
+    - team: teamdagpenger
+      application: dp-varsel
+      access: write 
