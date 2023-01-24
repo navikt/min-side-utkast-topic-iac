@@ -40,3 +40,6 @@ spec:
     - team: team-soknad
       application: soknadsmottaker
       access: read
+    - team: teamdagpenger
+      application: dp-varsel
+      access: write 
