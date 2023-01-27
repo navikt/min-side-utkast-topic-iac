@@ -34,9 +34,6 @@ spec:
     - team: team-soknad
       application: soknadsmottaker
       access: read
-    - team: teamdagpenger
-      application: dp-herald
-      access: write 
     - team: aap
       application: soknad-api
       access: write
