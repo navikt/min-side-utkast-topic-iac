@@ -1,22 +1,7 @@
 # min-side-utkast-topic-iac
 
 Repo med konfigurasjon for hvem som kan produsere og konsumere fra min-side-utkast-topicet.
-
-## utkast på min side
-_– en enklere inngang til påbegynte søknader og dokument-innsendinger_ <br>
-Utkast er underside av min side (tilgjengelig på `<navurl>/minside/utkast`) der bruker
-skal kunne finne søknader og dokument-innsendinger hen har begynt å fylle ut, men ikke sendt inn enda.<br>
-
-### Nice! Hvordan kan mitt team få våre ting på utkast-sida?
-Koble på min-side-utkast-topicet og kjør på! <br>
-_utkast er i beta og støtter for øyeblikket tre hendelser: created, updated, og deleted_
-1. Send en created-melding når en bruker har lagra et utkast
-2. Send en updated-melding hvis url-en eller tittelen til utkastet har endret seg. 
-3. Send en deleted melding når bruker enten har sendt inn eller hvis utkastet har blitt slettet enten av bruker eller systemet.
-   
-Formatet på meldingene er beskrevet i [tms-utkast reopet](https://github.com/navikt/tms-utkast).
-Det finnes også et [message-builder bibliotek](https://jitpack.io/#navikt/tms-utkast) som lager meldingene for deg.
-NB! Det er kun ting som **ikke er innsendt** som skal ligge på utkast-siden.
+[Utvikler-dokumentasjon for utkast](https://tms-dokumentasjon.intern.nav.no/utkast)
 
 ## Hvordan kobler jeg meg på min-side-utkast-topic-et?
 **For skrivetilgang**
