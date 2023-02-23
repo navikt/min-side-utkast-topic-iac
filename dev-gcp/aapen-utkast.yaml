@@ -28,6 +28,9 @@ spec:
     - team: min-side
       application: tms-kafka-manager
       access: read
+    - team: min-side
+      application: tms-statistikk
+      access: read
     - team: team-soknad
       application: soknadsmottaker
       access: write
