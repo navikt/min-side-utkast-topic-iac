@@ -43,3 +43,6 @@ spec:
     - team: teamdagpenger
       application: dp-varsel
       access: write 
+    - team: dusseldorf
+      application: k9-dittnav-varsel
+      access: write 
