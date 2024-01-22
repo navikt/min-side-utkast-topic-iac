@@ -21,7 +21,7 @@ spec:
   acl:
     - team: min-side
       application: tms-utkast
-      access: read
+      access: readwrite
     - team: min-side
       application: tms-event-test-producer
       access: write
@@ -42,7 +42,7 @@ spec:
       access: read
     - team: teamdagpenger
       application: dp-varsel
-      access: write 
+      access: write
     - team: dusseldorf
       application: k9-dittnav-varsel
-      access: write 
+      access: write

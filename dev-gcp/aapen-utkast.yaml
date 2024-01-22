@@ -21,7 +21,7 @@ spec:
   acl:
     - team: min-side
       application: tms-utkast
-      access: read
+      access: readwrite
     - team: min-side
       application: tms-event-test-producer
       access: write
