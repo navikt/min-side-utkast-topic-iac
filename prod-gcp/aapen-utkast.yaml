@@ -46,3 +46,6 @@ spec:
     - team: dusseldorf
       application: k9-dittnav-varsel
       access: write
+    - team: etterlatte
+      application: innsendt-soeknad
+      access: write
