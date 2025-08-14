@@ -29,6 +29,9 @@ spec:
       application: tms-kafka-manager
       access: read
     - team: min-side
+      application: tms-kafka-dashboard
+      access: read
+    - team: min-side
       application: tms-statistikk
       access: read
     - team: aap
